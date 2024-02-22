@@ -11,10 +11,14 @@ In this repo you will find:
 
 ### Instructions to run the code
 0. Clone the repository
-1. Initialize submodules
+1. Initialize submodules deepxde, deepxde_v0.11.2
 
         git submodule init
         git submodule update
-2. Manually download v.0.11.2 of luluxvi/deepxde, rename the module to deepxde112
 
-Note: I'm totally aware of the lack of professionality in this, but, as explained in Section Code of the report, this code has only didactic purposes and it was chosed to load some functions from the last realease of deepxde and some from an earlier one. It's unfortunately not possible to initialize two submodules of the same library at two different commits. Nor I want to breach copyrights by pushing the entire copy of the module in this repository.
+
+2. Run the desired notebooks: Heat_2D/Heat_2D.ipynb and Heat_3D/Heat_3D.ipynb
+
+Notes:
+- Verify that deepxde_v0.11.2 is checked out at branch "v_0_11_2" and not "master"
+- I'm totally aware of the lack of professionality in using two versions of the same library, but, as explained in section "Code" of the report, this code has only didactic purposes. It was chosen as best course of action to load some functions from the last realease of deepxde and some from an earlier one. It's unfortunately not possible to initialize two submodules of the same library at two different commits, therefore one is a fork.
