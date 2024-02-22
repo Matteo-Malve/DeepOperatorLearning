@@ -1,6 +1,3 @@
-[submodule "deepxde"]
-	path = deepxde_v0-11-2
-	url = git@github.com:lululxvi/deepxde.git
 [submodule "deeponet"]
 	path = deeponet
 	url = git@github.com:lululxvi/deeponet.git
